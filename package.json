@@ -1,6 +1,6 @@
 {
   "name": "react-use-thunk-reducer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hook that replaces redux-thunk middleware funcitonality for useReducer",
   "keywords": [
     "react",

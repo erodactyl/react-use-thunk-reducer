@@ -14,7 +14,7 @@ yarn add react-use-thunk-reducer
 
 ```js
 import React from "react";
-import useAsyncReducer from "./useAsyncReducer";
+import useThunkReducer from "react-use-thunk-reducer";
 
 const reducer = (state, action) => {
   if (action.type === "HI") {
@@ -31,7 +31,7 @@ const changeValueAsync = () => ({ dispatch, getState }) => {
 };
 
 const App = () => {
-  const [state, thunk] = useAsyncReducer(reducer, "INITIAL");
+  const [state, thunk] = useThunkReducer(reducer, "INITIAL");
   return <button onClick={() => thunk(changeValueAsync())}>{state}</button>;
 };
 
