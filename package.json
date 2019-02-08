@@ -1,0 +1,28 @@
+{
+  "name": "react-use-thunk-reducer",
+  "version": "0.1.0",
+  "description": "A hook that replaces redux-thunk middleware funcitonality for useReducer",
+  "keywords": [
+    "react",
+    "thunk",
+    "redux",
+    "hook",
+    "useThunkReducer"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erodactyl/react-use-thunk-reducer"
+  },
+  "bugs": {
+    "url": "https://github.com/erodactyl/react-use-thunk-reducer/issues"
+  },
+  "dependencies": {
+    "react": "16.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
