@@ -1,1 +1,1 @@
-export { default } from './usePromise';
+export { default } from './useThunkReducer';
